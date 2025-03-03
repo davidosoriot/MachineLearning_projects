@@ -10,7 +10,7 @@ from torch.nn.functional import pad
 import gradio as gr
 
 AUDIO_DIR = os.path.join(".", "motors")  
-print(f"Ruta del dataset: {AUDIO_DIR}")  
+print(f"dataset dir: {AUDIO_DIR}")  
 
 SAMPLE_RATE = 16000
 N_FFT = 1024
